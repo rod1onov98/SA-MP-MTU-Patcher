@@ -1,6 +1,5 @@
 #include <iostream>
 #include "minhook/minhook.h"
-#include <unordered_map>
 #include <string>
 #include <cstdint>
 #include <cstdio>
@@ -159,4 +158,5 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved) {
         break;
     }
     return TRUE;
+
 }
